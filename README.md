@@ -9,4 +9,4 @@ a small script to automatically convert and download vergilius-project structs a
 no further explanation needed. 
 
 preview:\
-![Vergilida status](vergilida.png)
+![Vergilida status](vergilidastatus.png)
