@@ -30,8 +30,7 @@
         }
 
         window.vergilida = function() {
-
-            struct_raw.replace("VOID", "void") //ida doesnt know uppercase VOID for some reason (it does know other uppercase types tho?)
+            struct_raw = struct_raw.replace("VOID", "void") //ida doesnt know uppercase VOID for some reason (it does know other uppercase types tho?)
             dl(struct_name + ".h", struct_raw)
         }
     }
